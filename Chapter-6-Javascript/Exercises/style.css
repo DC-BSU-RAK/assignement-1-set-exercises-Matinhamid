@@ -1,0 +1,79 @@
+/* Global styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container styling */
+  .container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Headline */
+  .container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  /* Label styling */
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Input styling */
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Input focus effect */
+  input[type="number"]:focus {
+    border-color: #5c6ac4;
+    outline: none;
+  }
+  
+  /* Button styling */
+  button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #5c6ac4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #3b4db3;
+  }
+  
+  /* Result display */
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #222;
+  }
+  

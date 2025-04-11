@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+  }
+  
+  header {
+    background-color: #17072b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    text-decoration: underline;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .welcome {
+    width: 65%;
+  }
+  
+  .welcome h2 {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  
+  .welcome img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .lineup {
+    width: 30%;
+    background-color: #172d67;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  .lineup h2 {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+  }
+  
+  .lineup ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lineup li {
+    margin: 10px 0;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .images img {
+    width: 48%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+  
+  footer {
+    background-color: #8c15e9;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+  }
+  
