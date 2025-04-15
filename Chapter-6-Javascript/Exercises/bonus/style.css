@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+  }
+  
+  /* Main Game Container */
+  .game-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  /* RGB Value Display */
+  #rgb-display {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  /* Color Options */
+  .options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .option {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    border: 2px solid transparent;
+  }
+  
+  .option:hover {
+    transform: scale(1.05);
+    border-color: #ccc;
+  }
+  
+  /* Info Text */
+  .info {
+    margin: 15px 0;
+    font-size: 1rem;
+  }
+  
+  /* Result Message */
+  #result-message {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  /* Restart Button */
+  #restart-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 15px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #restart-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Hidden Class */
+  .hidden {
+    display: none;
+  }
+  
